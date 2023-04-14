@@ -1,0 +1,25 @@
+ver modularidade;
+
+-contextualização
+    historia 
+-o paradigma:
+    robert w floyd (1978)
+        a maneira em que organizamos nossa ideias para construir um abstração de um problema do mundo intuit.....
+    alan kay, um dos pais da 00
+        (i thought of objects being like biological cells and/or individual computers on a network, only able to communicate with messages
+        (so messaging came at the very beginning -- it took a while to see how to do ...))
+    comunicação via mensagens 
+        (sending cell) (target cell)
+    objeto
+        alguma coisa que faz sentido no domínio da sua aplicação
+        depende do problema que você está tentando resolver
+        deve favorecer a compreensão do problema
+        fornecer uam base real para a imvlementação
+        são descritos por meiros de atributos(estado) e comportamentos
+                                        L Substantivos      L Verbos
+    classe de objetos
+        grupos de objetos com os mesmos atributos e os mesmo comportamentos
+        são usadas para (instanciar) objetos
+    mensagens 
+        para que um objeto realize alguma tarefa...
+    
