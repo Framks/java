@@ -1,0 +1,33 @@
+Aula dia 13/04 
+    - Abstração:
+        . Abstrair = separar mentalmente uma parte de um todo para a considerar independente das outras partes.
+        . Separar, apartar.
+        . Fazer abstração.
+        . Omitir.
+        . Distrair-se.
+        . Focar a sua atenção em = CONCENTRAR-SE
+    
+        - uma abstração é qualquer modelo que inclui os aspectos relevantes de alguma coisa,
+          ao mesmo tempo em que ignora os menos importantes.
+        
+    - Capacidade de abstração X Experiência
+    - Encapsulamento
+        - Objeto 
+            . Nossa unidade modular é composto:
+                . Estado / Atributos
+                    . Valores das variávieis internas
+                . Comportamento / Métodos
+                    . Ações que são realizados pelo objeto
+                    . Modo como elas são realizadas
+        
+        - é uma forma de restringir o acesso ao estado interno do objeto
+
+        - permite a colaboração apenas via mensagens (requisitantes/requisitado)
+
+        - A maneira (implementação) que o objeto requisitado realiza a tarefa não é exposta/conhecida pelo objeto requisitante
+
+        - em termos da 00, um objeto possui uma interface
+            . informa o que um objeto conhece e o que ele é capaz de Fazer
+            . define os serviços/ações que um objeto pode realizar
+            . logo, as mensagens que ele recebe
+        
