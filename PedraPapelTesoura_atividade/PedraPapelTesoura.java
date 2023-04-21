@@ -16,9 +16,10 @@ public class PedraPapelTesoura {
     }
 
     static public int recebeJogadaUsuario() {
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        return num;
+        try (Scanner sc = new Scanner(System.in)) {
+            int num = sc.nextInt();
+            return num;
+        }
     }
 
     static public int geraJogadaCpu() {

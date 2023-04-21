@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 class Scaner {
     static public void main(String[] args) {
         /*
@@ -34,18 +35,18 @@ class Scaner {
          * System.out.print(horaatual+":"+menutosatual+":"+segundoatual);
          */
 
-        Scanner in = new Scanner(System.in);
-
-        System.out.print("Digite seu primeiro nome: ");
-        String nome = in.next();
-        System.out.print("digita sua idade: ");
-        int idade = in.nextInt();
-        if (idade < 10) {
-            System.out.println("idade não é valida");
-        } else if (idade < 18) {
-            System.out.println(nome + " você não é adulto");
-        } else {
-            System.out.println(nome + " você tem a maior idade penal");
+        try (Scanner testar = new Scanner(System.in)) {
+            System.out.print("Digite seu primeiro nome: ");
+            String nome = testar.next();
+            System.out.print("digita sua idade: ");
+            int idade = testar.nextInt();
+            if (idade < 10) {
+                System.out.println("idade não é valida");
+            } else if (idade < 18) {
+                System.out.println(nome + " você não é adulto");
+            } else {
+                System.out.println(nome + " você tem a maior idade penal");
+            }
         }
     }
 }
