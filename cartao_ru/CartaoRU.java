@@ -14,7 +14,7 @@ public class CartaoRU {
     }
 
     // methods
-    //
+    // faz a recarga no cartão do ru
     public void recarregar(Double valor) {
         if (valor > 0) {
             Double valor_atual = getSaldo();
@@ -34,10 +34,12 @@ public class CartaoRU {
         }
     }
 
+    // retorna o saldo do cartão
     public Double emitirSaldo() {
         return getSaldo();
     }
 
+    // altera o estado de isenção do cartão do ru
     public void alterarIsencao(Boolean isencao) {
         setIsencao(isencao);
     }
