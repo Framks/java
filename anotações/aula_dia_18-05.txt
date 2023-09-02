@@ -1,0 +1,5 @@
+herança, reescrita e poliformismo:
+
+herança é reutilizar parte de uma implementação em outra implementação diferente.
+ apostila da alura capitulo 9º.
+ 
